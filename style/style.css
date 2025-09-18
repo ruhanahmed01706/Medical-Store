@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.medifit{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 8px;
+    color:rgb(133, 35, 35);
+}
+.m-text{
+    font-size: larger;
+}
+.m-logo{
+    
+}
+.nav-item ul{
+    display: flex;
+    gap: 20px;
+}
+.nav-item ul li{
+    list-style: none;
+    color:rgb(133, 35, 35);
+    font-size: 23px;
+}
+.search_logo{
+    display: flex;
+    gap: 5px;
+    font-size: 20px;
+}
+
+
+button{
+    background-color: rgb(133, 35, 35);
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border: none;
+}
+.shop-button{
+    font-size: 18px;
+    display: block;
+}
+/* .hero-text{
+    border: 1px solid tomato;
+} */
+.hero-text h1{
+    color:rgb(133, 35, 35);
+}
+.hero-text p{
+    color: rgb(78, 55, 55);
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.conteinar{
+    width: 80%;
+    margin: 10px auto;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+img{
+    width: 100%;
+}
+.hero-image{
+    width: 400px;
+}
+.banner{
+    background-color: rgb(247, 244, 239);
+
+}
