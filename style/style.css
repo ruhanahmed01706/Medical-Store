@@ -223,3 +223,49 @@ img{
     text-decoration: line-through;
     
 }
+/* ========== latest section end */
+.client-sec{
+    width: 80%;
+    margin: 40px auto;
+}
+.client-sec h2{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(133, 35, 35);
+    margin-bottom: 30px;
+}
+.client-text{
+
+    background-color: rgb(234, 234, 235);
+    padding: 60px 80px 25px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 18px;
+    position: relative;
+}
+.coma{
+    position: absolute;
+    font-size: 80px;
+    top: 40px;
+    left: 20px;
+    transform: rotate(180deg);
+    font-weight: 900;
+    color: gray;
+}
+.client-cards{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.client-card-img{
+    font-size: 40px;
+}
+.client-card{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgb(133, 35, 35);
+}
+.client-card-text h5{
+    font-size: 20px;
+}
