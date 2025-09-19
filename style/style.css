@@ -269,3 +269,99 @@ img{
 .client-card-text h5{
     font-size: 20px;
 }
+/* =========== Main Section End ====== */
+.dashboard{
+    width: 85%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-areas: 
+    "pages utility medifit2 adress";
+    grid-template-columns: 150px 150px 2fr 1fr;
+}
+.pages{
+    grid-area: pages;
+}
+.pages h3{
+    color: rgb(133, 35, 35);
+    margin-bottom: 10px;
+}
+.pages ul li a{
+    text-decoration: none;
+    color: rgb(133, 35, 35);
+
+}
+.pages ul li{
+    list-style: none;
+}
+.utility{
+    grid-area: utility;
+}
+.utility h3{
+    color: rgb(133, 35, 35);
+    margin-bottom: 10px;
+}
+.utility ul li a{
+    text-decoration: none;
+    color: rgb(133, 35, 35);
+
+}
+.utility ul li{
+    list-style: none;
+}
+.utility ul a{
+    text-decoration: none;
+    color: rgb(133, 35, 35);
+}
+.medifit2{
+    grid-area: medifit2;
+    color: rgb(133, 35, 35);
+    margin: 20px auto;
+    width: 300px;
+    
+
+}
+.medifit2 img{
+    width: 40px;
+}
+.med{
+    display: flex;
+    gap: 6px;
+}
+.medifit2 p{
+    margin: 15px 0;
+}
+.icon{
+    display: flex;
+    gap: 8px;
+    font-size: 25px;
+}
+.adress{
+    grid-area: adress ;
+    color: rgb(133, 35, 35);
+    display: grid;
+    justify-content: space-between;
+}
+.adr h3{
+    margin-bottom: 8px;
+}
+.contract h3{
+    margin-bottom: 8px;
+}
+.contract p span{
+    margin-right: 3px;
+    font-size: 12px;
+}
+
+footer{
+    background-color: rgb(227, 227, 224);
+    padding: 25px 0;
+}
+.Ruhan{
+    background-color: rgb(160, 112, 54);
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+}
+.Ruhan span{
+    color: orange;
+}
